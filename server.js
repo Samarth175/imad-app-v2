@@ -93,7 +93,7 @@ var names=[];
 app.get('/submit-name',function (req, res) {    // /submit-name?name=xxx
     //Get the name from the request
     var name=req.query.name;    //express framework
-    if(name!='null'){
+    if(name!==null){
         names.push(name);
     }
     //JSON Javascript Object Notation
