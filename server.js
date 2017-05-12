@@ -8,7 +8,7 @@ var config = {
     database: 'samarth175',
     host: 'localhost',
     port: '5432',
-    password: process.env.DB_PAASWORD
+    password: 'akash@1751997'
 };
 
 var app = express();
