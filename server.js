@@ -9,7 +9,7 @@ var config = {
     host: 'localhost',
     port: '5432',
     password: process.env.DB_PAASWORD
-}
+};
 
 var app = express();
 app.use(morgan('combined'));
