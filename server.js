@@ -6,7 +6,7 @@ var Pool = require('pg').Pool;      //connection pool
 var config = {
     user: 'postgres',
     database: 'samarth175',
-    host: 'localhost',
+    host: 'server',
     password: process.env.DB_PASSWORD
 };
 
