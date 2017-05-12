@@ -4,7 +4,7 @@ var path = require('path');
 var Pool = require('pg').Pool;      //connection pool
 
 var config = {
-    user: 'samarth175',
+    user: 'postgres',
     database: 'samarth175',
     host: 'localhost',
     port: '5432',
