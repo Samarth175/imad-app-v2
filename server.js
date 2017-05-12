@@ -4,10 +4,9 @@ var path = require('path');
 var Pool = require('pg').Pool;      //connection pool
 
 var config = {
-    system: 'PostgreSQL',
     user: 'postgres',
     database: 'samarth175',
-    host: 'localhost',
+    host: '192.168.43.136',
     password: process.env.DB_PASSWORD
 };
 
